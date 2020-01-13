@@ -54,3 +54,12 @@ navBar[2].textContent = siteContent["nav"]["nav-item-3"];
 navBar[3].textContent = siteContent["nav"]["nav-item-4"];
 navBar[4].textContent = siteContent["nav"]["nav-item-5"];
 navBar[5].textContent = siteContent["nav"]["nav-item-6"];
+
+let mainHeader = document.querySelector('h1');
+mainHeader.textContent = siteContent["cta"]["h1"];
+
+let mainButton = document.querySelector('button');
+mainButton.textContent = siteContent["cta"]["button"];
+
+let footerCopyright = document.querySelector("footer p");
+footerCopyright.textContent = siteContent["footer"]["copyright"];
