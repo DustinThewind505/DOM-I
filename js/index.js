@@ -112,3 +112,11 @@ let parentElement = document.querySelector('nav');
 
 parentElement.prepend(newNavContent);
 parentElement.appendChild(newNavContent2);
+
+let codeImg = document.getElementById('middle-img');
+codeImg.addEventListener('mouseover', () => {
+  codeImg.src = 'https://www.bing.com/th/id/OIP.EDblLJ_0De4nTLkEmmcX-gHaEJ?pid=Api&rs=1';
+})
+codeImg.addEventListener('mouseleave', () => {
+  codeImg.src = siteContent["main-content"]["middle-img-src"];
+})
