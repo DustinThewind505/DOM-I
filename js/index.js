@@ -82,3 +82,18 @@ pTags[7].textContent = siteContent["contact"]["email"];
 let footerCopyright = document.querySelector("footer p");
 footerCopyright.textContent = siteContent["footer"]["copyright"];
 
+
+for(let i = 0; i < navBar.length; i++){
+  navBar[i].style.color = "green"
+}
+
+let newNavContent = document.createElement("a");
+let newNavContent2 = document.createElement("a");
+
+newNavContent.textContent = "BLOOD";
+newNavContent2.textContent = "BLOOD";
+
+let parentElement = document.querySelector('nav');
+
+parentElement.prepend(newNavContent);
+parentElement.appendChild(newNavContent2);
