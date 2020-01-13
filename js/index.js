@@ -61,5 +61,24 @@ mainHeader.textContent = siteContent["cta"]["h1"];
 let mainButton = document.querySelector('button');
 mainButton.textContent = siteContent["cta"]["button"];
 
+let headingFour = document.getElementsByTagName("h4");
+headingFour[0].textContent = siteContent["main-content"]["features-h4"];
+headingFour[1].textContent = siteContent["main-content"]["about-h4"];
+headingFour[2].textContent = siteContent["main-content"]["services-h4"];
+headingFour[3].textContent = siteContent["main-content"]["product-h4"];
+headingFour[4].textContent = siteContent["main-content"]["vision-h4"];
+headingFour[5].textContent = siteContent["contact"]["contact-h4"];
+
+let pTags = document.getElementsByTagName("p");
+pTags[0].textContent = siteContent["main-content"]["features-content"];
+pTags[1].textContent = siteContent["main-content"]["about-content"];
+pTags[2].textContent = siteContent["main-content"]["services-content"];
+pTags[3].textContent = siteContent["main-content"]["product-content"];
+pTags[4].textContent = siteContent["main-content"]["vision-content"];
+pTags[5].textContent = siteContent["contact"]["address"];
+pTags[6].textContent = siteContent["contact"]["phone"];
+pTags[7].textContent = siteContent["contact"]["email"];
+
 let footerCopyright = document.querySelector("footer p");
 footerCopyright.textContent = siteContent["footer"]["copyright"];
+
