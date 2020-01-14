@@ -120,3 +120,9 @@ codeImg.addEventListener('mouseover', () => {
 codeImg.addEventListener('mouseleave', () => {
   codeImg.src = siteContent["main-content"]["middle-img-src"];
 })
+headerImg.addEventListener("mouseover", () => {
+  headerImg.src = "https://avatars2.githubusercontent.com/u/42304513?s=460&v=4"
+})
+headerImg.addEventListener("mouseleave", () => {
+  headerImg.src = siteContent["cta"]["img-src"];
+})
